@@ -1,0 +1,12 @@
+SpotsFiltersTool is an image analysis platform developed to filter transcriptional traces of drosophile embryos. This software is written in Python™ 3.10.
+It is ment to be a post-processing tool of SegmentTrack_v4.1 (https://github.com/ant-trullo/SegmentTrack_v4.0), so it works on the results of analysis obtained with it.
+
+SpotsFiltersTool was developed on the operating system Linux Ubuntu 24.04 64-bit and tested on Linux Ubuntu 24.04.
+
+Requirements: SpotsFiltersTool is written in Python3.10, but should work as well with newer versions of Python3. All the packages used by this software (with their version) are listed in the file requirements.txt: to install all of them should be sufficient to run the command 'pip install -r requirements.txt' in your console.
+
+Install  and Run SpotsFiltersTool: Clone the repository and put all the files in a folder, than open a terminal (or cmd for Windows) move in the software folder and run 'python3 SpotsFiltersTool.py' and press enter. You will be asked to select first the analysis folder and than the raw data to work
+
+Possible issues: Depending on the size of your data and the specifications of your computer, you can have a MemoryError. In this case try to shut down all the other tasks your pc is running and eventually crop your data.
+
+For any question or issue send an email at: antonio.trullo@igmm.cnrs.fr
